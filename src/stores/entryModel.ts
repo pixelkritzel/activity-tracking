@@ -10,4 +10,6 @@ const entryModel = types.model({
   notes: types.string
 });
 
+export type IEntryModelType = typeof entryModel.Type;
+
 export default entryModel;
